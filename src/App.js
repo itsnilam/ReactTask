@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div className='tasktracker'>
       <div className='task'>
-     <center> <h2>Design Task</h2></center>
+     <center> <h2>UI/UX Design Task</h2></center>
         {/* Mapping over the Design array to render tasks */}
         {Design.map((item, index) => (
           <>
@@ -24,7 +24,7 @@ const App = () => {
        {/*  for develop tasks */}
 
        <div className='task'> 
-       <center><h2>Develop Task</h2></center>
+       <center><h2> Backend Development Task</h2></center>
         {/* Mapping over the develop array to render tasks */}
         {develop.map((item, index) => (
           <DesignTask item={item} key={item}></DesignTask> 
